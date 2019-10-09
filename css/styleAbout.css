@@ -1,0 +1,147 @@
+/*html, body*/
+
+body{
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.special_container{
+    color:#0f0c0c;
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+}
+/*Found*/
+.container{
+    color:#181010;
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+html{
+    background-color: #ffffff;
+}
+
+#index_showcase{
+    color: #000000;
+    resize: none;
+    text-align: center;
+    min-height:400px;
+    background:url('../img/band.jpg') no-repeat 0 0px ;
+    border-bottom:#000000 3px solid;
+}
+
+
+header{
+    /*text-align:center;*/
+    background: #ffffff;
+    color:#AAABB8;
+    padding-top:10px;
+    min-height:50px;
+    border-bottom:#328291 3px solid;
+}
+
+img.wrap {
+    float:left;
+    border: 10px;
+}
+
+.portfolio_container{
+    color:#000000;
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+    border-top:#ffffff 15px solid;
+    /*border: 3px solid white;*/
+}
+
+header a{
+    color:#252525;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:15px;
+}
+
+/*Add?*/
+#boxes{
+    margin-top:20px;
+}
+  
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+/*Add?*/
+
+/*Everyting above works*/
+
+header li{
+    display:inline;
+    margin-left:3.2%;
+    padding: 0 45px 5px 45px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+    display:inline;
+}
+
+header nav{
+    margin-top:0px;
+}
+
+/*Everything below works*/
+
+header .highlight, header .current a{
+    color: #262626;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+/* Footer Settings. DO NOT TOUCH */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 6.5rem;    /* Footer height */
+}
+  
+#footer {
+    position: absolute;
+    background: #332244;
+    text-align:center;
+    color: white;
+    border-top:#ffffff 3px solid;
+    padding: 12px 7.5px 12px 12px;
+    bottom: 0;
+    width: 98.40%;
+    height: 2.5rem;            /* Footer height */
+}
+h2 {
+    text-align: center;
+    color: darkslateblue;
+}
+h4 {
+    text-align: center;
+    color: lightslategray;
+}
+p.small{
+    line-height: 0.8;
+}
