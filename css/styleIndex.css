@@ -23,17 +23,6 @@ body{
 html{
     background-color: #ffffff;
 }
-
-#index_showcase{
-    color: #000000;
-    resize: none;
-    text-align: center;
-    min-height:400px;
-    background:url('../img/band.jpg') no-repeat 0 0px ;
-    border-bottom:#000000 3px solid;
-}
-
-
 header{
     /*text-align:center;*/
     background: #ffffff;
